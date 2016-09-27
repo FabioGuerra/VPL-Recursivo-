@@ -22,9 +22,9 @@ float NPV(int n, float presentValue, float i){
 }
 
 int main(){
-    float i = 0.05; //12 %
-    int n = 5; // 12 months
-    float PV = -100; // R$ 10.000
+    float i = 0.05; // 5%
+    int n = 5; // 5 months
+    float PV = -100; // R$ 100
     printf("Net present value = %.2f",NPV(n,PV,i));
 	return 0;
 }
